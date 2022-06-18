@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCF6F5FF;
+}
+nav.top, ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: black;
+    color: white;
+height: 10%;
+
+}
+ul li{
+    cursor: pointer;
+}
+li h2 {
+    margin-left: -60px;
+}
+ul {
+
+    justify-content: space-around;
+    width: 37%;
+  
+}
+
+img.logo {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.container {
+   height: 75%;
+    font-family: 'varela Round' sans-serif;
+    display: flex;
+    /* background-color: black; */
+    color: white;
+    width: 70vw;
+    
+    border-radius: 20px;
+    margin: 25px auto;
+    padding: 5px 5px;
+    background-image: url('./covers/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.container:hover{
+    overflow: hidden;
+    background-image: url('./covers/1.jpg');
+}
+.bottom{
+   
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+   bottom: 0%;
+ 
+}
+#progressBar{
+width: 80vw;
+cursor: pointer;
+}
+
+.icon {
+    margin: 10px 0px;
+justify-content: space-between;
+}
+.icon i{
+    cursor: pointer;
+}
+.songitem{
+    height: 40px;
+    width: 50%;
+    background-color: rgb(235, 7, 220);
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    border: 5px solid #f4f0f0;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.songitem:hover{
+    overflow:hidden;
+    
+ background-color: black;
+}
+.songitem img{
+    height: 25px;
+    border-radius: 40px;
+    margin: 2px 14px;
+}
+
+span {
+    margin: 4px 8px;
+}
+span i{
+    margin: 0px 8px;
+}
+.songlistplay {
+    height :80%;
+    width: 70%;
+    margin: 4px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.timestamp ,i{
+    cursor: pointer;
+}
+
+.songinfo{
+  
+    position: absolute;
+    left: 10vw;
+    top: 15%;
+}
+.songinfo img {
+    height: 10px;
+    width: 100px;
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+}
